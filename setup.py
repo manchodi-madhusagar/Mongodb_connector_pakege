@@ -25,6 +25,21 @@ setup(
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
+    install_requires=[
+        "pymongo[srv]>=3.11.3",
+        "pandas>=1.1.5",
+        "numpy>=1.21.4",
+        "tqdm>=4.62.3",
+        "PyYAML>=6.0",
+        "boto3>=1.18.18",
+        "requests>=2.25.1",
+        "python-dotenv>=0.19.2",
+        "pyarrow>=4.0.1",
+        "pymongo",
+        "dnspython",
+        "ensure",
+        "pytest"
+    ]
     )
 
 
